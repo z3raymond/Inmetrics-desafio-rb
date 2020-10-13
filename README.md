@@ -1,25 +1,30 @@
 # Inmetrics-desafio-rb
 Repositório do  Desafio-Inmetrics com cucumber,capybrara e ruby
 
-##como executar o projeto
+## como executar o projeto
+* Importante ter o Ruby instalado (versao 2.5 ou superior )
 
-*importante ter o Ruby instalado (versao 2.5 ou superior)
-
-###instalar o Bundler
+### instalar o Bundler
 '
 gem install bundler
 '
-###Instalar as dependencias do Ruby (projeto)
+
+
+### Instalar as dependencias do Ruby (projeto)
+'
+bundle install
+'
+
+### Executar localmente(minha maquina)
 
 '
-Bundle install
-'
+bundle exec cucumber
 
-### Excutar Localmente 
+
+
+### Executar no  servidor de CI(gerando reposts JSON)
+
 '
-bundle exe cucumber
-'
-###Executar no servidor de CI (gerando reposts json)
-'
-bundle exec cucumber -p ci
+bundle exec cucumber -p CI
+
 '
