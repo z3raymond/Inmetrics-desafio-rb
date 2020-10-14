@@ -5,7 +5,6 @@ Quando('eu faço login com {string} e {string}') do |usuario, password|
     # click_button "Entre"
     # @login=LoginPage.new
     @login.go
-    sleep 5
     @login.with(usuario,password)
     
   end
